@@ -22,4 +22,12 @@ public class TestController {
         names.add("Mehandi");
         return names;
     }
+
+
+    @GetMapping(value = "/helloworld")
+    public String testRestController()
+    {
+
+        return "Hello World";
+    }
 }
