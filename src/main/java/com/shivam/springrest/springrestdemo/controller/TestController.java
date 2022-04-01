@@ -24,10 +24,5 @@ public class TestController {
     }
 
 
-    @GetMapping(value = "/helloworld")
-    public String testRestController()
-    {
-
-        return "Hello World";
-    }
+  
 }
